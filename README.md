@@ -8,6 +8,7 @@ An [Apache Spark](http://spark.apache.org/) container image. The image is meant 
 - [`2.1` (Dockerfile)](https://github.com/SingularitiesCR/spark-docker/blob/2.1/Dockerfile)
 - [`2.2` (Dockerfile)](https://github.com/SingularitiesCR/spark-docker/blob/2.2/Dockerfile)
 - [`2.3` (Dockerfile)](https://github.com/SingularitiesCR/spark-docker/blob/2.3/Dockerfile)
+- [`2.4` (Dockerfile)](https://github.com/SingularitiesCR/spark-docker/blob/2.4/Dockerfile)
 
 ## Custom commands
 
@@ -52,7 +53,7 @@ services:
     hostname: master
     ports:
       - "6066:6066"
-      - "7070:7070"
+      - "7077:7077"
       - "8080:8080"
       - "50070:50070"
   worker:
